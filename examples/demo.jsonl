@@ -1,0 +1,6 @@
+{"event_id":"e1","run_id":"healthy","tool":"search_docs","arguments":{"query":"combat"},"status":"ok","duration_ms":12}
+{"event_id":"e2","run_id":"healthy","tool":"read_note","arguments":{"path":"combat.md"},"status":"ok","duration_ms":18}
+{"event_id":"e3","run_id":"retry-loop","tool":"search_docs","arguments":{"query":"missing-map","limit":5},"status":"ok","duration_ms":40}
+{"event_id":"e4","run_id":"retry-loop","tool":"search_docs","arguments":{"query":"missing-map","limit":5},"status":"ok","duration_ms":45}
+{"event_id":"e5","run_id":"retry-loop","tool":"search_docs","arguments":{"query":"missing-map","limit":5},"status":"ok","duration_ms":50}
+{"event_id":"e6","run_id":"retry-loop","tool":"search_docs","arguments":{"query":"missing-map","limit":5},"status":"error","duration_ms":60}
